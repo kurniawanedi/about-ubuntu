@@ -28,5 +28,5 @@
 1. Buka terminal dan masuk sebagai super user dengan perintah ```sudo su``` dan masukkan passwordnya
 2. Masuk ke direktori file lampp dengan perintah ``` cd /opt/lampp ```
 3. Uninstall dengan perintah ```./uninstall```
-4. Lalu pilih yes ```sudo /etc/init.d/apache2 stop```
+4. Lalu pilih yes
 5. Selesai
