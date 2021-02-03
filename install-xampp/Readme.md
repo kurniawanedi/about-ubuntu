@@ -17,6 +17,11 @@
 1. Buka terminal dengan perintah ```Ctrl+Alt+T``` 
 2. Ketikan perintah ``` sudo /opt/lampp/lampp stop ```
 
+# Cara membuka control panel XAMPP di Linux
+1. Buka terminal dengan perintah ```Ctrl+Alt+T``` 
+2. Masuk ke direktori XAMPP `cd /opt/lampp/`
+3. Buka control panel dengan perintah `sudo ./manager-linux-x64.run`
+
 # Fix error Apache tidak mau berjalan
 1. Install net-tools dengan perintah ```sudo apt-get install net-tools```
 2. Lalu jalankan kembali dengan perintah ``` sudo /opt/lampp/lampp start ```
