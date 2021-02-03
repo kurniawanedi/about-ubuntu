@@ -16,7 +16,6 @@
 # Cara untuk menghentikan XAMPP di Linux
 1. Buka terminal dengan perintah ```Ctrl+Alt+T``` 
 2. Ketikan perintah ``` sudo /opt/lampp/lampp stop ```
-3. Finish
 
 # Fix error Apache tidak mau berjalan
 1. Install net-tools dengan perintah ```sudo apt-get install net-tools```
@@ -25,4 +24,9 @@
 4. Maka stop terlebih dahulu dengan perintah ```sudo /etc/init.d/apache2 stop```
 5. Lalu jalankan kembali dengan perintah No.2
 
-
+# Cara Uninstall XAMPP
+1. Buka terminal dan masuk sebagai super user dengan perintah ```sudo su``` dan masukkan passwordnya
+2. Masuk ke direktori file lampp dengan perintah ``` cd /opt/lampp ```
+3. Uninstall dengan perintah ```./uninstall```
+4. Lalu pilih yes ```sudo /etc/init.d/apache2 stop```
+5. Selesai
